@@ -1,0 +1,35 @@
+
+Algoritmo: información sobre un libro 
+1. Iniciar
+2. obtener el título del libro
+3. obtener el autor del libro
+4. obtener el precio del libro
+5. obtener el año de publicación del libro
+6. Mostrar la información del libro
+7. Finalizar
+
+pseudocodigo 
+
+program solicitar_info_de_libro
+start
+// Programa para mostrar la información sobre un libro
+// Declaración de variables
+declare string titulo
+declare string autor
+declare float precio
+declare int añodepublicacion
+
+display "ingresar titulo del libro"
+input titulo
+display "ingresar autor del libro"
+input autor
+display "ingresar precio del libro"
+input precio
+display "ingresar año de publicación del libro"
+input añodepublicacion
+
+display "el titulo del libro es", titulo
+display "el autor del libro es", autor
+display "el precio del libro es", precio
+display "el año de publicacion del libro es", añodepublicacion
+end
