@@ -1,0 +1,40 @@
+
+Algoritmo: calcular el consumo de energía en un mes 
+
+1. Iniciar
+2. definir la potencia del electrodoméstico y las horas de uso al día
+3. Convertir la potencia a kilovatios con la formula (potencia_kW = potencia/1000)
+4. Calcular el consumo diario en kilovatios-hora con la formula (consumo_diario= potencia_kW * horas_dia)
+5. Calcular el consumo mensual en kilovatios-hora con la formula (consumo_mensual = consumo_diario * dias_mes )
+6. Mostrar resultados 
+7. Finalizar
+
+
+pseudocodigo
+
+program calcular_consumoenergia
+Start
+// Programa para calcular el consumo de energía en el periodo de un mes 
+// Declaración de variables
+constant float potencia = 1500
+constant float horas_dia = 3   
+constant int dias_mes = 30       
+declare float potencia_kW
+declare float consumo_diario
+declare float consumo_mensual
+
+//convertir potencia a kilovatios
+set potencia_kW = potencia/1000
+// calcular consumo diario 
+set consumo_diario = potencia_kW * horas_dia
+// calcular consumo mensual
+set consumo_mensual = consumo_diario * dias_mes
+
+display "mostrar resultados de la coversion"
+input potencia_kW
+display "mostrar resultados del consumo diario"
+input consumo_diario
+display "mostrar resultados del consumo mensual"
+input consumo_mensual
+End
+
